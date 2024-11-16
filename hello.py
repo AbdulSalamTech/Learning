@@ -24,3 +24,21 @@ print(names[0])
 print(names[1])
 
 cordinate = (12, 34)
+
+for name in names:
+    print(name)
+
+houses = {
+    "alex": "gryffindor",
+    "harry": "slytherin"
+}
+
+houses["adam"] = "gryffindor"
+
+print(houses["alex"])
+
+def square(x):
+    return x * x
+
+for i in range(1, 11):
+    print(f"the square of {i} is {square(i)}")
