@@ -42,3 +42,14 @@ def square(x):
 
 for i in range(1, 11):
     print(f"the square of {i} is {square(i)}")
+
+# Lambda Functions ❤️
+store = [
+    {"id": 1, "item": "pen"},
+    {"id": 2, "item": "marker"},
+    {"id": 3, "item": "speaker"}
+]
+
+store.sort(key=lambda person: person["item"])
+
+print(store)
